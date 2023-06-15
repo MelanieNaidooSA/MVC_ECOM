@@ -1,0 +1,80 @@
+@{
+
+    ViewData["Title"] = "About rucitas";
+
+}
+@section Styles {
+
+    <link href="/css/login.css" rel="stylesheet" type="text/css" />
+
+}
+
+
+
+
+       <div class="full-page">
+
+        <div class="topnav">
+
+            <a style="color:rgba(22, 205, 101, 0.962);" class="active" href='@Url.Action("Index", "Home")'>Rucita's</a>
+
+            <img src="../images/products/logotoys.JPG" width="70" height="70">
+
+           
+
+        </div>
+
+   
+
+        <div id='login-form' class='login-page'>
+
+            <div class="form-box">
+
+                <div class='button-box'>
+
+                    <div id='btn'></div>
+
+                    <button type='button' onclick='login()' class='toggle-btn'>Log In</button>
+
+                    <button type='button' onclick='register()' class='toggle-btn'>Register</button>
+
+                </div>
+
+                <form id='login' class='input-group-login'>
+
+                    <input type='text' class='input-field' placeholder='Email Id' name='email' id='email' required>
+
+                    <input type='password' class='input-field' placeholder='Enter Password' name='pass' id='pass' required>
+
+                    <input type='checkbox' class='check-box'><span>Remember Password</span>
+
+                    <button type='submit' class='submit-btn'id="login-btn" >Log in</button>
+
+                </form>
+
+<form id='register' class='input-group-register'>
+
+                    <input type='text' class='input-field' placeholder='First Name' name='fname' id='fname' required>
+
+                    <input type='text' class='input-field' placeholder='Last Name ' name='lname' id='lname' required>
+
+                    <input type='email' class='input-field' placeholder='Email Id' name='rmail' id='rmail' required>
+
+                    <input type='password' class='input-field' placeholder='Enter Password' name='pass1' id='pass1' required>
+
+                    <input type='password' class='input-field' placeholder='Confirm Password' required>
+
+                    <input type='checkbox' class='check-box'><span>I agree to the terms and conditions</span>
+
+                    <button type='submit' class='submit-btn' id="reg-btn">Register</button>
+
+                   
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    

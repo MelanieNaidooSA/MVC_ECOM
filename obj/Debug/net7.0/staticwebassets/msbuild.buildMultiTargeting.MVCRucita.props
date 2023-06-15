@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVCRucita.props" />
+</Project>

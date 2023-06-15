@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\IMG-20220726-WA0035.jpg",
+      "PackagePath": "staticwebassets\\images\\IMG-20220726-WA0035.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\Miyang Chan.jfif",
+      "PackagePath": "staticwebassets\\images\\Miyang Chan.jfif"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\Nina Davaluri.jfif",
+      "PackagePath": "staticwebassets\\images\\Nina Davaluri.jfif"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\Yash Gupta.jfif",
+      "PackagePath": "staticwebassets\\images\\Yash Gupta.jfif"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\cupcakes.jpg",
+      "PackagePath": "staticwebassets\\images\\cupcakes.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\images4.jfif",
+      "PackagePath": "staticwebassets\\images\\images4.jfif"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\LOGO-ICON4.png",
+      "PackagePath": "staticwebassets\\images\\products\\LOGO-ICON4.png"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image1.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image10.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image10.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image11.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image11.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image14.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image14.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image15.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image15.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image16.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image16.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image17.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image17.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image18.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image18.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image19.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image19.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image2.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image20.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image20.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image21.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image21.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image3.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image4.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image5.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image6.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image7.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image7.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image8.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\image9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\image9.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\logo-icon.png",
+      "PackagePath": "staticwebassets\\images\\products\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\logo-icon2.png",
+      "PackagePath": "staticwebassets\\images\\products\\logo-icon2.png"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\logo-icon3.png",
+      "PackagePath": "staticwebassets\\images\\products\\logo-icon3.png"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\products\\payments.png",
+      "PackagePath": "staticwebassets\\images\\products\\payments.png"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-1.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\slider-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-2.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\slider-3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-3.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\slider-4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-4.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\images\\slidercake.jpg",
+      "PackagePath": "staticwebassets\\images\\slidercake.jpg"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\js\\filter.js",
+      "PackagePath": "staticwebassets\\js\\filter.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\js\\jquery.store.js",
+      "PackagePath": "staticwebassets\\js\\jquery.store.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\MVCRucita\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.MVCRucita.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.MVCRucita.props",
+      "PackagePath": "build\\MVCRucita.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.MVCRucita.props",
+      "PackagePath": "buildMultiTargeting\\MVCRucita.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.MVCRucita.props",
+      "PackagePath": "buildTransitive\\MVCRucita.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

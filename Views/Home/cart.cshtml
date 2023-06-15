@@ -1,0 +1,175 @@
+@{
+
+    ViewData["Title"] = "About rucitas";
+
+}
+<section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="topnav">
+                    <a style="color:black;" class="active" href='@Url.Action("Index", "Home")'>Rucita's</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item">
+            <a style="color:black;" class="nav-link" href="./Product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:black;" class="nav-link" href="./cart.html">Cart</a>
+                        </li>
+
+                        <li class="nav-item">
+                <a style="color:black;" class="nav-link" href="./about.html">About Us</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+          <a style="color:black;" class="nav-link" href="#services">Our Services</a>
+                        </li>
+
+                        <li class="nav-item">
+       <a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our
+                                Team</a> -->
+                        </li>
+                        <li class="nav-item">
+          <a style="color:black;" class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+        <a style="color:black;" class="nav-link" href="./login/login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <div id="site">
+            <header id="masthead">
+            </header>
+            <div id="content">
+                <h1>Your Shopping Cart</h1>
+
+                < form id="shopping-cart" action="cart.html" method="post">
+                    <table class="shopping-cart">
+                        <thead>
+                            <tr>
+                                <th scope="col">Item</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col" colspan="2">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <p id="sub-total">
+                        <strong>Sub Total</strong>: <span id="stotal"></span>
+                    </p>
+                    <ul id="shopping-cart-actions">
+                        <!-- <li>
+                        <input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+                    </li>
+                    <li>
+                        <input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+                    </li> -->
+                        <li>
+                            <ul id="shopping-cart-actions">
+                        
+                                <li>
+                                    <a href="product.html" class="btn" style="background-color:#c131b5">
+                                    <input type="submit" name="update" id="update-cart" value="Update Cart" style="background-color:#c13191; color:white; border: transparent;"/>
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="product.html" class="btn" style="background-color:#c131a2;">
+                                <input type="submit" name="delete" id="empty-cart" value="Empty Cart" style="background-color:#c13196; color:white; border: transparent;"/>
+                            </a>
+                            </li>
+                                <li>
+                                    <a href="product.html" class="btn" style="background-color:#c13191">Continue Shopping</a>
+                                </li>
+                                <li>
+                                    <a href="checkout.html" class="btn" style="background-color:#ad1975">Go To Checkout</a>
+                                </li>
+                            </ul>
+             
+        <section id="footer" style="margin-top: 80px; background-color: rgb(252, 250, 250); padding-top: 30px;">
+            <footer class="container">
+                <div class="footer-middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-s6 col-lg-3">
+                                <div class="widget widget-about">
+                                    <img src="./images/products/LOGO-ICON4.png" class="footer-logo" alt="Footer Logo"
+                                        width="50" height="50">
+                                    <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu
+                                        vulputate magna eros eu erat. </p>
+
+                                    <div class="widget-call">
+                                        <i class="icon-phone"></i>
+                                        Got Question? Call us 24/7
+                                        <a href="tel:#" style="color: #420433;">+2793929099</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="widget">
+                                    <h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
+
+                                    <ul class="widget-list">
+                                        <li><a href="about.html" style="color: #52065c;">About Company</a></li>
+                                        <li><a href="#" style="color: #891494;">Our Services</a></li>
+                                        <li><a href="#" style="color: #a729b3;">How to shop</a></li>
+                                        <li><a href="faq.html" style="color: #85199b;">FAQ</a></li>
+                                        <li><a href="contact.html" style="color: #9c1c92;">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="widget">
+                                    <h4>Customer Service</h4>
+
+                                    <ul class="widget-list">
+                                        <li><a href="#" style="color: #9c1c92;">Payment Methods</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Money-back guarantee!</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Returns</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Shipping</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Terms and conditions</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="widget">
+                                    <h4 class="widget-title">My Account</h4><!-- End .widget-title -->
+
+                                    <ul class="widget-list">
+                                        <li><a href="#" style="color: #9c1c92;">Sign In</a></li>
+                                        <li><a href="cart.html" style="color: #9c1c92;">View Cart</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">My Wishlist</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Track My Order</a></li>
+                                        <li><a href="#" style="color: #9c1c92;">Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container">
+                        <p style="text-align:center;">Copyright © 2022 iFundi Store. All Rights Reserved.</p>
+                        <figure style="float: right;">
+                            <img src="./images/products/payments.png" alt="Payment methods" width="272" height="20">
+                        </figure>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    

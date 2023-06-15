@@ -1,0 +1,86 @@
+{
+  "SerializedFilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\MVCRucita.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "MVCRucita",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\contact.cshtml",
+      "TargetPath": "Views\\Home\\contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\product.cshtml",
+      "TargetPath": "Views\\Home\\product.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\checkout.cshtml",
+      "TargetPath": "Views\\Home\\checkout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\order.cshtml",
+      "TargetPath": "Views\\Home\\order.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\about.cshtml",
+      "TargetPath": "Views\\Home\\about.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\cart.cshtml",
+      "TargetPath": "Views\\Home\\cart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\govep\\Desktop\\Work\\Digital Skills\\MVCRucita\\Views\\Home\\login.cshtml",
+      "TargetPath": "Views\\Home\\login.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

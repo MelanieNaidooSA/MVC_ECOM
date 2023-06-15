@@ -1,0 +1,516 @@
+@{
+
+    ViewData["Title"] = "About rucitas";
+
+}
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="topnav">
+            <a style="color:black;" class="active" href='@Url.Action("Index", "Home")'>index</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href='@Url.Action("product", "Home")'>product</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href='@Url.Action("cart", "Home")'>cart</a>
+
+                </li>
+
+
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href='@Url.Action("about", "Home")'>about</a>
+                </li>
+
+                <!-- <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href="#services">Our Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our
+                        Team</a>
+                </li> -->
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href='@Url.Action("contact", "Home")'>contact</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color:black;" class="nav-link" href='@Url.Action("login", "Home")'>login</a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+<section class="new-arrivals">
+  <div id="site">
+    <div class="container">
+      <div class="title-box">
+         <h2>New on the menu</h2>
+      </div>
+   <div class="row">
+    <div class="col-md-3">
+     <div class="product-top">
+       <img src="./images/products/image9.jpg">
+         <div class="overlay-right">
+          <button type="button" class="btn btn-secondary" title="Quick Shop">
+            <i class="fa fa-eye"></i>
+           </button>
+           <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+       <i class="fa fa-heart-o"></i>
+      </button>
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+  <i class="fa fa-shopping-cart"></i>
+                  </button> -->
+   </div>
+  </div>
+  <div class="product-bottom text-center">
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star"></i>
+  <i class="fa fa-star-half-o"></i>
+  <h3 style="font-family:'Poppins'; font-size: 20px;">brownies</h3>
+ <div class="product-description" data-name="brownies" data-price="10">
+  <p class="product-price" style="font-size: 20px">R20</p>
+    <form class="add-to-cart" action="cart.html" method="post">
+ <div>
+  <label for="qty-2">Quantity</label>
+ <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+    </div>
+    <p><input type="submit" value="Add to cart" class="btn" /></p>
+    </form>
+    </div>
+   </div>
+ </div>
+
+<div class="col-md-3">
+ <div class="product-top">
+  <img src="./images/products/image3.jpg">
+  <div class="overlay-right">
+  <button type="button" class="btn btn-secondary" title="Quick Shop">
+  <i class="fa fa-eye"></i>
+ </button>
+ <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+ <i class="fa fa-heart-o"></i>
+ </button>
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+   <i class="fa fa-shopping-cart"></i>
+       </button> -->
+  </div>
+ </div>
+
+<div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3 style="font-family:'Poppins'; font-size: 20px;">stirfry</h3>
+  <div class="product-description" data-name="stirfry" data-price="15">
+
+ <p class="product-price" style="font-size:20px;">R30</p>
+  <form class="add-to-cart" action="cart.html" method="post">
+  <div>
+   <label for="qty-2">Quantity</label>
+   <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+  </div>
+<p><input type="submit" value="Add to cart" class="btn" /></p>
+</form>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+ <div class="product-top">
+  <img src="./images/products/image11.jpg">
+    <div class="overlay-right">
+   <button type="button" class="btn btn-secondary" title="Quick Shop">
+   <i class="fa fa-eye"></i>
+   </button>
+   <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+  <i class="fa fa-heart-o"></i>
+  </button>
+
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+  <i class="fa fa-shopping-cart"></i>
+     </button> -->
+</div>
+</div>
+
+<div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3 style="font-family:'Poppins'; font-size: 20px;">breakfast </h3>
+<div class="product-description" data-name="breakfast" data-price="14">
+
+<p class="product-price" style="font-size: 20px;">R40</p>
+ <form class="add-to-cart" action="cart.html" method="post">
+<div>
+<label for="qty-2">Quantity</label>
+ <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+ </div>
+<p><input type="submit" value="Add to cart" class="btn" /></p>
+</form>
+</div>
+</div>
+</div>
+
+
+ <div class="col-md-3">
+ <div class="product-top">
+   <img src="./images/products/image19.jpg">
+   <div class="overlay-right">
+ <button type="button" class="btn btn-secondary" title="Quick Shop">
+ <i class="fa fa-eye"></i>
+</button>
+<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+   <i class="fa fa-heart-o"></i>
+</button>
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+<i class="fa fa-shopping-cart"></i>
+              </button> -->
+    </div>
+ </div>
+
+    <div class="product-bottom text-center">
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-o"></i>
+ <h3 style="font-family:'Poppins'; font-size: 20px;">starters </h3>
+ <div class="product-description" data-name="starters" data-price="30">
+ <p class="product-price" style="font-size: 20px;">R30</p>
+   <form class="add-to-cart" action="cart.html" method="post">
+ <div>
+ <label for="qty-2">Quantity</label>
+  <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+</div>
+  <p><input type="submit" value="Add to cart" class="btn" /></p>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3">
+<div class="product-top">
+ <img src="./images/products/image4.jpg">
+   <div class="overlay-right">
+   <button type="button" class="btn btn-secondary" title="Quick Shop">
+   <i class="fa fa-eye"></i>
+   </button>
+  <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+ <i class="fa fa-heart-o"></i>
+ </button>
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+  <i class="fa fa-shopping-cart"></i>
+ </button> -->
+</div>
+</div>
+<div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+ <h3 style="font-family:'Poppins'; font-size: 20px;">pasta</h3>
+<div class="product-description" data-name="pasta" data-price="31">
+ <p class="product-price" style="font-size: 20px;">R31</p>
+  <form class="add-to-cart" action="cart.html" method="post">
+ <div>
+  <label for="qty-2">Quantity</label>
+  <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+ </div>
+  <p><input type="submit" value="Add to cart" class="btn" /></p>
+  </form>
+ </div>
+</div>
+</div>
+
+<div class="col-md-3">
+ <div class="product-top">
+  <img src="./images/products/image1.jpg">
+ <div class="overlay-right">
+<button type="button" class="btn btn-secondary" title="Quick Shop">
+<i class="fa fa-eye"></i>
+</button>
+ <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+ <i class="fa fa-heart-o"></i>
+</button>
+
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+ <i class="fa fa-shopping-cart"></i>
+</button> -->
+ </div>
+</div>
+
+<div class="product-bottom text-center">
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star"></i>
+   <i class="fa fa-star-half-o"></i>
+<h3 style="font-family:'Poppins'; font-size: 20px;">cupcake</h3>
+
+ <div class="product-description" data-name="cupcake" data-price="30">
+  <p class="product-price" style="font-size: 20px;">R15</p>
+  <form class="add-to-cart" action="cart.html" method="post">
+  <div>
+  <label for="qty-2">Quantity</label>
+  <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+</div>
+<p><input type="submit" value="Add to cart" class="btn" /></p>
+  </form>
+ </div>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div class="product-top">
+   <img src="./images/products/image5.jpg">
+    <div class="overlay-right">
+ <button type="button" class="btn btn-secondary" title="Quick Shop">
+ <i class="fa fa-eye"></i>
+ </button>
+<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+ <i class="fa fa-heart-o"></i>
+</button>
+
+<!-- <button type="button" class="btn btn-secondary" title="Add to Cart">
+ <i class="fa fa-shopping-cart"></i>
+</button> -->
+</div>
+</div>
+
+<div class="product-bottom text-center">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+ <h3 style="font-family:'Poppins'; font-size: 20px;">Mains</h3>
+
+ <div class="product-description" data-name="Mains" data-price="16">
+ <p class="product-price" style="font-size: 20px;"> from R80</p>
+  <form class="add-to-cart" action="cart.html" method="post">
+ <div>
+ <label for="qty-2">Quantity</label>
+ <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+</div>
+<p><input type="submit" value="Add to cart" class="btn" /></p>
+</form>
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+ <div class="product-top">
+  <img src="./images/products/image6.jpg">
+   <div class="overlay-right">
+    <button type="button" class="btn btn-secondary" title="Quick Shop">
+      <i class="fa fa-eye"></i>
+    </button>
+<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+<i class="fa fa-heart-o"></i>
+</button>
+</div>
+</div>
+
+<div class="product-bottom text-center">
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star-half-o"></i>
+ <h3 style="font-family:'Poppins'; font-size: 20px;">calamari</h3>
+<div class="product-description" data-name="calamari" data-price="40">
+<p class="product-price" style="font-size: 20px;">R40</p>
+ <form class="add-to-cart" action="cart.html" method="post">
+<div>
+<label for="qty-2">Quantity</label>
+ <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+</div>
+<p><input type="submit" value="Add to cart" class="btn" /></p>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="slider">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+     <div class="carousel-item active" data-interval="10000">
+      <img src="../images/image9-480w.jpg" class="d-block w-100" alt="..." style="width:100%;height:550px;">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+       <img src="../images/image9.jpg" class="d-block w-100" alt="..."
+             style="width:100%;height:550px;">
+       </div>
+     <div class="carousel-item">
+     <img src="../images/image2.jpg" class="d-block w-100" alt="..."
+           style="width:100%;height:550px;">
+        </div>
+     </div>
+    <div class="intro-content">
+     <h3 class="intro-subtitle text-primary" style="font-size: 40px">Bulk requests</h3>
+     <h1 class="intro-title">snacks <br>desserts
+     </h1>
+    <a href="./product.html" class="btn btn-primary btn-round"
+     style="background-color: #fc41ec; margin-left:40px;vertical-align: middle;">
+   <span>Click Here</span>
+    <i class="icon-long-arrow-right"></i>
+    </a>
+   </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+   <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+    </a>
+   </div>
+   </div>
+   <section class="today's special">
+    <div id="site">
+        <div class="container">
+            <div class="title-box">
+                <h2>Today's special</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <aside class="col-lg-3 order-lg-first">
+                        <div class="sidebar sidebar-shop">
+                            <div class="widget widget-clean">
+                                
+<div class="widget widget-collapsible">
+<h3 class="widget-title">
+<a data-toggle="collapse" href="#widget-1" role="button"
+aria-expanded="true" aria-controls="widget-1" style="color: #fc419e;">Category</a>
+</h3>
+<div class="collapse show" id="widget-1">
+<div class="widget-body">
+<div class="filter-items filter-items-count">
+<div class="filter-item">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="cat-1">
+<label class="custom-control-label" for="cat-1">stirfry</label>
+</div>
+<!-- <span class="item-count">3</span> -->
+</div>
+<div class="filter-item">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="cat-2">
+<label class="custom-control-label" for="cat-2">brownies</label>
+
+<input type="checkbox" class="custom-control-input" id="cat-3">
+<label class="custom-control-label" for="cat-3">cakes</label>
+</div>                                                                                                     </div>
+<div class="filter-item">
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="cat-4">
+<label class="custom-control-label" for="cat-4">stirfry</label>
+
+<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+    
+
+
+</section>
+<section class="on-sale">
+<div id="site">
+<div class="container">
+
+
+                            <section id="footer" style="margin-top: 40px; background-color: rgb(252, 250, 250); padding-top: 30px;">
+                                <footer class="container">
+                                    <div class="footer-middle">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-s6 col-lg-3">
+                                                    <div class="widget widget-about">
+                                                        <img src="./images/products/LOGO-ICON4.png" class="footer-logo" alt="Footer Logo"
+                                                            width="50" height="50">
+                                                        <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu
+                                                            vulputate magna eros eu erat. </p>
+                    
+                                                        <div class="widget-call">
+                                                            <i class="icon-phone"></i>
+                                                            Got Question? Call us 24/7
+                                                            <a href="tel:#" style="color: #fc41d3;">+27939290909</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="col-sm-6 col-lg-3">
+                                                    <div class="widget">
+                                                        <h4 class="widget-title">Useful Links</h4><!-- End .widget-title -->
+                    
+                    <ul class="widget-list">
+                     <li><a href="about.html" style="color: #fc41be;">About Company</a></li>
+                    <li><a href="#" style="color: #fc41cd;">Our Services</a></li>
+                    <li><a href="#" style="color: #fc41a8;">How to shop</a></li>
+                    <li><a href="faq.html" style="color: hsl(320, 79%, 53%);">FAQ</a></li>
+                    <li><a href="contact.html" style="color: #fc41a8;">Contact us</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="col-sm-6 col-lg-3">
+                                                    <div class="widget">
+                                                        <h4>Customer Service</h4>
+                    
+                    <ul class="widget-list">
+                    <li><a href="#" style="color: #fc41cd;">Payment Methods</a></li>
+                    <li><a href="#" style="color: #fc41ae;">Money-back guarantee!</a></li>
+                    <li><a href="#" style="color: #fc41d3;">Returns</a></li>
+                    <li><a href="#" style="color: #fc4198;">Shipping</a></li>
+                     <li><a href="#" style="color: #fc41ae;">Terms and conditions</a></li>
+                    <li><a href="#" style="color: #fc418f;">Privacy Policy</a></li>
+                    </ul>
+                                                    </div>
+                                                </div>
+                    
+                                                <div class="col-sm-6 col-lg-3">
+                                                    <div class="widget">
+                                                        <h4 class="widget-title">My Account</h4><!-- End .widget-title -->
+                    
+                    <ul class="widget-list">
+                    <li><a href="#" style="color: #fc41cd;">Sign In</a></li>
+                    <li><a href="cart.html" style="color: #fc4198;">View Cart</a></li>
+                    <li><a href="#" style="color: #fc41c4;">My Wishlist</a></li>
+                    <li><a href="#" style="color: #fc41ae;">Track My Order</a></li>
+                    <li><a href="#" style="color: #fc4179;">Help</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <div>
+                                        <div class="container">
+                                            <p style="text-align:center;">Copyright © 2019 Molla Store. All Rights Reserved.</p>
+                                            <figure style="float: right;">
+                                                <img src="./images/products/payments.png" alt="Payment methods" width="272" height="20">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </footer>
+                                </section>
